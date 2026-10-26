@@ -35,11 +35,11 @@ T = 298.15 K（25 °C）。
 ## 图0 装置示意（fig_apparatus.py → figures/fig0_装置示意）
 - 底图：assets/apparatus_original.png（示意插图底图，**未包含在本仓库中**；`figures/` 中带标注的 PNG/SVG 为发布版本，没有底图时脚本会提示并跳过）。脚本按颜色阈值交换导线颜色：红线/红表笔/红端子 → 右侧（浓溶液）电极，黑线 → 左侧（稀溶液）电极；加中文标注。读数 59.2 mV 为理论值，不是实测值。右下角标“示意”。
 
-## 图3 能斯特方程（fig_nernst.py → figures/fig3_能斯特方程）
+## 图4 能斯特方程（fig_nernst.py → figures/fig4_能斯特方程）
 - E = (RT/nF)·ln10·lg(a浓/a稀)，n = 1、2；T = 273.15、298.15、333.15 K。理想能斯特行为，忽略液接电势。
 - 标记点：lg = 2、n = 2、25 °C → E = 59.16 mV（显示为 59.2 mV）。
 
-## 图4 CuSO4 平均活度系数（fig_activity.py → figures/fig4_CuSO4活度系数）
+## 图3 CuSO4 平均活度系数（fig_activity.py → figures/fig3_CuSO4活度系数）
 - Debye–Hückel 极限律：lg γ± = −A|z₊z₋|√I，A = 0.509 kg^½·mol^−½（25 °C 水，常用值），z = 2，I = 4m。计算值：m = 0.001 → 0.743；0.01 → 0.392；0.1 → 0.052。
 - 文献值（25 °C，质量摩尔浓度标度）：*CRC Handbook of Chemistry and Physics*, 97th ed. (2016), W. M. Haynes 主编, CRC Press, 第 5 节 “Activity Coefficients of Acids, Bases, and Salts”（P. Vanýsek），p. 5-98，CuSO4 行：
   m = 0.1…1.0 mol/kg：0.150, 0.104, 0.0829, 0.0704, 0.0620, 0.0559, 0.0512, 0.0475, 0.0446, 0.0423。

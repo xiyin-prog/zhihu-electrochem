@@ -5,8 +5,8 @@
 | 图0 装置示意 | `fig_apparatus.py` | `figures/fig0_装置示意.png/.svg` |
 | 图1 双电层电势分布 | `fig_edl.py` | `figures/fig1_双电层电势分布.png/.svg` |
 | 图2 溶解/沉积速率交点 | `fig_bv_cross.py` | `figures/fig2_溶解沉积速率交点.png/.svg` |
-| 图3 能斯特方程 | `fig_nernst.py` | `figures/fig3_能斯特方程.png/.svg` |
-| 图4 CuSO4 活度系数 | `fig_activity.py` | `figures/fig4_CuSO4活度系数.png/.svg` |
+| 图4 能斯特方程 | `fig_nernst.py` | `figures/fig4_能斯特方程.png/.svg` |
+| 图3 CuSO4 活度系数 | `fig_activity.py` | `figures/fig3_CuSO4活度系数.png/.svg` |
 | 图5 附录：混合熵 | `fig_mixing_entropy.py` | `figures/fig5_附录_混合熵.png/.svg` |
 
 运行：在本目录下 `python fig_xxx.py`（依赖 numpy、scipy、matplotlib、Pillow；共用样式 `style.py`）。参数、假设与来源见 `params.md`；正文代码片段见 `snippets/`。
